@@ -20,7 +20,7 @@
 
 #sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 #sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
-sed -i '$a src-git kenzo https://github.com/ntwck/openwrt-packages' feeds.conf.default
+sed -i '$a src-git ntwck https://github.com/ntwck/openwrt-packages' feeds.conf.default
 sed -i '$a src-git zerotier https://github.com/mwarning/zerotier-openwrt.git' feeds.conf.default
 
 #sed -i '$a src-git packages https://git.openwrt.org/feed/packages' feeds.conf.default
